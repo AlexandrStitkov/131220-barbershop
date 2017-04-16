@@ -7,25 +7,23 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">Информация</a>
-            </li>
-            <li>
-              <a href="#">Новости</a>
-            </li>
-            <li>
-              <a href="#">Прайс-лист</a>
-            </li>
-            <li>
-              <a href="#">Магазин</a>
-            </li>
-            <li>
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+        <ul class="main-navigation">
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Прайс-лист</a>
+          </li>
+          <li>
+            <a class="active" href="#">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
         <div class="user-block">
           <a href="#" class="login">Вход</a>
         </div>
@@ -34,51 +32,50 @@
     <main class="container">
       <h1 class="main-title">Средства для ухода</h1>
       <ul class="breadcrumbs">
-        <li class="breadcrumbs-item">Главная</li>
-        <li class="breadcrumbs-item">Магазин</li>
-        <li class="breadcrumbs-item">Средства для ухода</li>
-        <li class="breadcrumbs-item active">Набор для путишествий "Baxter of california"</li>
+        <li>Главная</li>
+        <li>Магазин</li>
+        <li class="active">Средства для ухода</li>
       </ul>
       <div class="catalog-left">
         <form action="https://echo.htmlacademy.ru" class="catalog-filter" metodth="post">
           <h2 class="catalog-title">Производители:</h2>
           <ul class="manufacturers-filter">
-            <li class="filter-item">
+            <li>
               <input type="checkbox" name="bax" id="bax" checked>
               <label for="bax">Baxter of california</label>  
             </li>
-            <li class="filter-item">
+            <li>
               <input type="checkbox" name="Mr" id="Mr">
               <label for="Mr">Mr natty</label>  
             </li>
-            <li class="filter-item">
+            <li>
               <input type="checkbox" name="Sua" id="Sua" checked>
               <label for="Sua">Suavecito</label>
             </li>
-            <li class="filter-item">
+            <li>
               <input type="checkbox" name="Mal" id="Mal">
               <label for="Mal">Malin+goetz</label>  
             </li>
-            <li class="filter-item">
+            <li>
               <input type="checkbox" name="Mur" id="Mur">
               <label for="Mur">Murrays</label>  
             </li>
-            <li class="filter-item">
+            <li>
               <input type="checkbox" name="Ame" id="Ame" checked>
               <label for="Ame">American crew</label>  
             </li>
           </ul>
           <h2 class="catalog-title">Группы товаров:</h2>
           <ul class="product-groups-filter">
-            <li class="filter-item">
+            <li>
               <input type="radio" name="group_id" id="Bri">
               <label for="Bri">Бритвенные принадлежности</label>  
             </li>
-            <li class="filter-item">
+            <li>
               <input type="radio" name="group_id" id="Sre" checked>
               <label for="Sre">Средства для ухода</label>  
             </li>
-            <li class="filter-item">
+            <li>
               <input type="radio" name="group_id" id="Aks">
               <label for="Aks">Аксессуары</label>
             </li>
