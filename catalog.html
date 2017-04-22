@@ -7,6 +7,7 @@
   <body>
     <header class="main-header">
       <div class="container">
+        <img src="3" width="160" height="70" alt="logo.png">
         <ul class="main-navigation">
           <li>
             <a href="#">Информация</a>
@@ -32,9 +33,18 @@
     <main class="container">
       <h1 class="main-title">Средства для ухода</h1>
       <ul class="breadcrumbs">
-        <li>Главная</li>
-        <li>Магазин</li>
-        <li class="active">Средства для ухода</li>
+        <li>
+          <a href="#">Главная</a>
+        </li>
+        <li>
+          <a href="#">Магазин</a>
+        </li>
+        <li>
+          <a href="#">Средства для ухода</a>
+        </li>
+        <li>
+          <a class="active">Набор для путишествий "Baxter of california"</a>
+        </li>
       </ul>
       <div class="catalog-left">
         <form action="https://echo.htmlacademy.ru" class="catalog-filter" metodth="post">
@@ -86,10 +96,10 @@
       <div class="catalog-content">
         <article class="catalog-item">
           <img src="#" width="220" height="140" alt="img/product-1.jpg">
-          <div class="item-title">
+          <h3 class="h3">
             Набор для путешествий<br>
             <span class="item-name">"Baxter of california"</span>
-          </div>
+          </h3>
           <div class="item-block">
             <span class="item-price">2 900 руб.</span>
             <a class="btn" href="#">Купить</a>
@@ -97,10 +107,10 @@
         </article>
         <article class="catalog-item">
           <img src="#" width="220" height="140" alt="img/product-2.jpg">
-          <div class="item-title">
+          <h3 class="item-title">
             Увлажняющий кондиционер<br>
             <span class="item-name">"Baxter of california"</span>
-          </div>
+          </h3>
           <div class="item-block">
             <span class="item-price">750 руб.</span>
             <a class="btn" href="#">Купить</a>
@@ -108,10 +118,10 @@
         </article>
         <article class="catalog-item">
           <img src="#" width="220" height="140" alt="img/product-3.jpg">
-          <div class="item-title">
+          <h3 class="item-title">
             Гель для волос<br>
             <span class="item-name">Suavecito</span>
-          </div>
+          </h3>
           <div class="item-block">
             <span class="item-price">290 руб.</span>
             <a class="btn" href="#">Купить</a>
@@ -119,10 +129,10 @@
         </article>
         <article class="catalog-item">
           <img src="#" width="220" height="140" alt="img/product-4.jpg">
-          <div class="item-title">
+          <h3 class="item-title">
             Глина для укладки волос<br>
             <span class="item-name">American crew</span>
-          </div>
+          </h3>
           <div class="item-block">
             <span class="item-price">500 руб.</span>
             <a class="btn" href="#">Купить</a>
@@ -130,10 +140,10 @@
         </article>
         <article class="catalog-item">
           <img src="#" width="220" height="140" alt="img/product-5.jpg">
-          <div class="item-title">
+          <h3 class="item-title">
             Гель для волос<br>
             <span class="item-name">American crew</span>
-          </div>
+          </h3>
           <div class="item-block">
             <span class="item-price">300 руб.</span>
             <a class="btn" href="#">Купить</a>
@@ -141,10 +151,10 @@
         </article>
         <article class="catalog-item">
           <img src="#" width="220" height="140" alt="img/product-6.jpg">
-          <div class="item-title">
+          <h3 class="item-title">
             Набор для бритья<br>
             <span class="item-name">"Baxter of california"</span>
-          </div>
+          </h3>
           <div class="item-block">
             <span class="item-price">2 900 руб.</span>
             <a class="btn" href="#">Купить</a>
@@ -168,7 +178,7 @@
     </main>
     <footer class="main-footer">
       <div class="container">
-        <section class="footer-contacts">
+        <section class="contacts">
           <p>
             Барбершоп "Бородинский"<br>
             Адрес: г. Санкт-Петербург, Б. Конюшенная, 19/8<br>
@@ -176,14 +186,22 @@
             Телефон: +7 (812) 666-02-66
           </p>
         </section>
-        <section class="footer-spcial">
-          <p>Давайте дружить!</p>
-          <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
-          <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
-          <a href="#" class="social-btn social-btn-inst">Инстограм</a>
+        <section class="spcial">
+          <h3>Давайте дружить!</h3>
+          <ul class="social">
+            <li>
+              <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+            </li>
+            <li>
+              <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+            </li>
+            <li>
+              <a href="#" class="social-btn social-btn-inst">Инстограм</a>
+            </li>
+          </ul>
         </section>
-        <section class="footer-copyright">
-          <p>Разработано:</p>
+        <section class="copyright">
+          <h3>Разработано:</h3>
           <a href="https://htmlacademy.ru" class="btn">HTML Academy</a>
         </section>
       </div>
